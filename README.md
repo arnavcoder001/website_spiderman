@@ -1,3 +1,3 @@
 # website_spiderman
 
-This is a website about spiderman.
+This is a spiderman website.
