@@ -1,0 +1,9 @@
+.table1 {
+    border:1px solid;
+    padding: 10px;
+}
+.table2 {
+    border-left: 2px solid;
+    border-right: 2px solid;
+    padding: 10px;
+}
