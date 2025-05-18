@@ -1,9 +1,15 @@
-.table1 {
-    border:1px solid;
-    padding: 10px;
+table {
+    width: 500px;
 }
-.table2 {
-    border-left: 2px solid;
-    border-right: 2px solid;
-    padding: 10px;
+
+th {
+    text-align: left;
+}
+
+caption {
+    text-align: center;
+}
+
+form {
+    margin-top: 20px;
 }
