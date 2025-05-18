@@ -13,3 +13,21 @@ caption {
 form {
     margin-top: 20px;
 }
+
+legend {
+    margin-top: 5px;
+}
+
+label {
+    display: block;
+}
+
+.next_line {
+    display: block;
+}
+
+.inline button {
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+}

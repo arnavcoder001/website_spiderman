@@ -209,7 +209,7 @@
         width="1400px"
         height="700px"
       />
-    </div>
+    
     <table>
       <theader>
         <caption>
@@ -255,13 +255,44 @@
         <td>7.4</td>
       </tr>
     </table>
+    <form>
+      <label
+        ><strong><h3>Fan Club Registration Form</h3></strong></label
+      >
+      <fieldset>
+        <legend>User Info</legend>
+          <legend>Registration Date: <input type="date" name="reg_date" /></legend>
+          <legend>Name: <input type="text" name="name" placeholder="Enter your Name" />
+          <legend>Email: <input type="email" name="email_id" placeholder="Email ID" /></legend>
+          <legend>Mobile No. : <input type="number" name="mob_no." placeholder="+91" /></legend>
+          <legend>Date of Birth: <input type="date" name="reg_date" /></legend>
+          <legend>Which movie did you like the most: 
+            <select name="fav-movie"> 
+              <option value="2021">Spider-Man: No Way Home</option>
+              <option value="2019">Spider-Man: Far From Home</option>
+              <option value="2007">Spider-Man 3</option>
+              <option value="2017">Spider-Man: Homecoming</option>
+              <option value="2017">Spider-Man</option>
+            </select>
+          </legend>
+          <legend>Which cinematic universe do you support?</legend>
+          
+          <label>
+            <input type="radio" value="marvel">Marvel
+          </label>
+          
+          <label>
+            <input type="radio" value="dc">DC
+          </label>
+          <legend>Review</legend>
+          <textarea
+          rows="3"
+          cols="30"></textarea>
+          <div class="inline button">
+          <button type="submit">Submit</button>
+          <button type="reset">Reset</button>
+          </div>
+      </fieldset>
+    </form>
   </body>
 </html>
-<form>
-  <label><strong> Fan Club Registration Form</strong></label>
-  <fieldset>
-    <legend>User Info</legend>
-    <legend>Registration Date</legend>
-    <input type="date" name="reg_date" />
-  </fieldset>
-</form>
